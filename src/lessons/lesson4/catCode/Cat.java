@@ -4,7 +4,6 @@ public class Cat {
 
     String name;
     int age;
-
     String breed;
 
     public Cat(String name, int age, String breed) {
@@ -17,6 +16,12 @@ public class Cat {
         this.name = name;
         this.age = age;
     }
+
+    public Cat( int age, String breed) {
+        this.breed = breed;
+        this.age = age;
+    }
+
 
     public Cat(String name) {
         this.name = name;
