@@ -1,4 +1,4 @@
-package lessons.lesson4;
+package lessons.lesson4.personCode;
 
 public class LessonCode {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package lessons.lesson4;
+package lessons.lesson4.personCode;
 
 public class Person {
 
