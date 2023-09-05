@@ -5,7 +5,7 @@ import java.util.Random;
 public class RandomExample2 {
     public static void main(String[] args) {
 
-        Random randomWithClass = new Random(10);
+        Random randomWithClass = new Random(100);
 
         int random1 = randomWithClass.nextInt();
 
