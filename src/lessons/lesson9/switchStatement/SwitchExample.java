@@ -6,8 +6,8 @@ public class SwitchExample {
     public static void main(String[] args) {
         UserInput ui = new UserInput();
         int userInt;
-        double userDouble;
-        String userText;
+        double userDouble = 0;
+        String userText = "";
 
 
         System.out.println("Menu:");
@@ -31,6 +31,8 @@ public class SwitchExample {
                 System.out.println("Please enter text: ");
                 userText = ui.userInputText();
                 break;
+            default:
+                System.out.println("Wrong choice!");
         }
 
 
