@@ -19,4 +19,7 @@ public class User {
         return isCorrectPassword;
     }
 
+    public void method1(){
+        checkPassword("8375y23895");
+    }
 }
