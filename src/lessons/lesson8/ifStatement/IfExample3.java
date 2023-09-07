@@ -1,6 +1,6 @@
 package lessons.lesson8.ifStatement;
 
-public class ifExample3 {
+public class IfExample3 {
     public static void main(String[] args) {
         /*
         даны три числа x, y, z с любыми значениями (рандомно или пользователь вводит)
