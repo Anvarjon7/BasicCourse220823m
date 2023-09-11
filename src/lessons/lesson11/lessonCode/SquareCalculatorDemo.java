@@ -13,7 +13,6 @@ public class SquareCalculatorDemo {
 
         // блок расчета
 
-
         switch (userData.numberOfShapeType){
             case 1:
                 userData.correctAnswer = ((int) (100 * areaCalculator.circleArea(userData.shapeParam1))) / 100.0;
