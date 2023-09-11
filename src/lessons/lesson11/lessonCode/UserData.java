@@ -18,7 +18,7 @@ public class UserData {
 
         numberOfShapeType = ui.userInputInteger();
 
-        if ((numberOfShapeType <1) && (numberOfShapeType > 3)) {
+        if ((numberOfShapeType <1) || (numberOfShapeType > 3)) {
             System.out.println("Ваш выбор некорректен!");
             System.exit(1);
         }
