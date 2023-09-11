@@ -1,7 +1,5 @@
 package lessons.lesson6;
 
-import kotlin.text.UStringsKt;
-
 import java.sql.SQLOutput;
 
 public class StringExample3 {
