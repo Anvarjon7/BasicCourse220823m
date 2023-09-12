@@ -15,5 +15,8 @@ public class CheckStringDemo {
         // блок вывода информации пользователю
         textOutput.printInfo(userText, checkResult);
 
+
+        // блок ввода строки от пользователя - альтернативный вариант
+        //String userText2 = textInput.inputFromTextFile();
     }
 }
