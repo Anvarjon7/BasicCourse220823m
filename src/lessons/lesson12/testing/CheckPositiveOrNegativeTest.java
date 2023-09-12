@@ -1,10 +1,10 @@
 package lessons.lesson12.testing;
 
-public class checkPositiveOrNegativeTest {
+public class CheckPositiveOrNegativeTest {
     public static void main(String[] args) {
         CheckPositiveOrNegative checkClass = new CheckPositiveOrNegative();
 
-        int userInput1 = 4;
+        int userInput1 = 14;
         boolean actualResult1 = checkClass.isPositive(userInput1);
         boolean expectedResult1 = true;
 
