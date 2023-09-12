@@ -15,6 +15,5 @@ public class CheckStringDemo {
         // блок вывода информации пользователю
         textOutput.printInfo(userText, checkResult);
 
-
     }
 }
