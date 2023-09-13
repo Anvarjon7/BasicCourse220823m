@@ -15,6 +15,7 @@ public class LoopWhileExample2 {
             x = x + 10;
         }
 
+
         System.out.println("Stop loop. X = " + x);
 
     }
