@@ -18,7 +18,7 @@ public class LoopWhileExample4 {
             System.out.println("продолжать? Y / N");
             String userAnswer = scanner.nextLine();
 
-            if (userAnswer.equals("N")) {condition = false;}
+            if (userAnswer.equals("N") || counter > 10) {condition = false;}
             counter++;
 
         }
