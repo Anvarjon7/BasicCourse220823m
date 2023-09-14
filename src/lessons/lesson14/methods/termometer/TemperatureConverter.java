@@ -12,5 +12,9 @@ public class TemperatureConverter {
         return celsiusTemp;
     }
 
+    public double fromCelsiusTokelvin(double temp){
+        return temp - 273;
+    }
+
 
 }

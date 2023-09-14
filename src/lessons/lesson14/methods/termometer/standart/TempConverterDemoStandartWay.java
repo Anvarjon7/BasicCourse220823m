@@ -10,7 +10,7 @@ public class TempConverterDemoStandartWay {
         TempDataInput dataInput = new TempDataInput();
         PrintConverterData printData = new PrintConverterData();
 
-        // последовательное использование методов их экземпляров классов
+        // последовательное использование методов из экземпляров классов
 
         int typeOfConverter = typeInput.userTempChoice();
         double sourceOfTemp = 0;
@@ -27,10 +27,16 @@ public class TempConverterDemoStandartWay {
             sourceOfTemp = dataInput.tempInput("Фаренгейт");
             resultOfConvert = converter.fromFahrenheitToCelsius(sourceOfTemp);
             printData.printData("Фаренгейт" ,sourceOfTemp, "Цельсия", resultOfConvert);
-
         }
 
-        if (typeOfConverter < 1 || typeOfConverter > 2) {
+        if (typeOfConverter == 3) {
+            sourceOfTemp = dataInput.tempInput("Цельсия");
+            resultOfConvert = converter.fromCelsiusTokelvin(sourceOfTemp);
+            printData.printData("Цельсия" ,sourceOfTemp, "Кельвин", resultOfConvert);
+        }
+
+
+        if (typeOfConverter < 1 || typeOfConverter > 6) {
             System.out.println("Некорректный выбор");
         }
 
