@@ -11,7 +11,9 @@ public class PointDemo {
         newPoint.increment();
         System.out.println(newPoint.x);
 
-        System.out.println(newPoint.increaseY(90));
+        int result = newPoint.increaseY(90);
+        System.out.println(result);
+        System.out.println(newPoint.y);
 
 
 
