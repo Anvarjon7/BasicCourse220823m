@@ -17,7 +17,6 @@ public class AppScenario1 {
         System.out.println(phone5.getModel() + " " + phone5.getPrice());
 
 
-
         phone2.setPrice(1450);
         System.out.println();
 
