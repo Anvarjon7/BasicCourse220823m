@@ -18,6 +18,9 @@ public class RaceApp {
         double resultCar2 = raceMonaco.raceResultCalculate(car2);
         double resultCar3 = raceMonaco.raceResultCalculate(car3);
 
+        // вызов некоего стороннего метода который будет возвращать
+        // результат гонки
+
 
         // блок вывода результата пользователю
 
