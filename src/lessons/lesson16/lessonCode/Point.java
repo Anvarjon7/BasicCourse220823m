@@ -6,6 +6,7 @@ public class Point {
 
     private int z;
 
+
     public int getZ() {
         return z;
     }
@@ -15,7 +16,7 @@ public class Point {
     }
 
 
-    public void increment() {
+    void increment() {
         x = x + 1;
     }
 
@@ -24,4 +25,11 @@ public class Point {
         return y;
     }
 
+    public static class PointDemo2 {
+        public static void main(String[] args) {
+            Point newPoint = new Point();
+            newPoint.x = 15;
+
+        }
+    }
 }
