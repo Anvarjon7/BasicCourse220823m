@@ -4,5 +4,6 @@ public class AppPerson {
     public static void main(String[] args) {
         Person john = new Person("John");
         john.setAccount("Qwerty");
+
     }
 }

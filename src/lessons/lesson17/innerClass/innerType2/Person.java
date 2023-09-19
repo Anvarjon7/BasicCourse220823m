@@ -9,6 +9,9 @@ public class Person {
 
     public void setAccount(String password) {
         class Account{
+
+            String accountNumber = "12345";
+
             void printData(){
                 System.out.println("Account login: " + name + " password: " + password);
             }
@@ -16,5 +19,6 @@ public class Person {
 
         Account account = new Account();
         account.printData();
+        System.out.println(account.accountNumber);
     }
 }
