@@ -35,6 +35,29 @@ c. “Black”
         pens[1] = pen2;
         pens[2] = pen3;
 
+        pens[0].setColor("Green");
+        pens[1].setColor("Red");
+        pens[2].setColor("Black");
 
+
+        int[] intArray = {1,2,3,4,5,6,7,8,9,10};
+
+        System.out.println("Второй элемент из массива чисел " + intArray[1]);
+
+        System.out.println(intArray);
+
+        for (int i = 0; i < intArray.length; i++) {
+            System.out.print(intArray[i] + ", ");
+        }
+
+        System.out.println();
+
+        System.out.println(pens[0].getColor());
+        System.out.println(pens[1].getColor());
+        System.out.println(pens[2].getColor());
+
+        for (int i = 0; i < pens.length; i++) {
+            System.out.println(pens[i].getColor());
+        }
     }
 }
